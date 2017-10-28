@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F164A61FA491620018D0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F164A51FA491620018D0A9 /* AppDelegate.swift */; };
+		C2F164A81FA491620018D0A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F164A71FA491620018D0A9 /* ViewController.swift */; };
+		C2F164AB1FA491620018D0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F164A91FA491620018D0A9 /* Main.storyboard */; };
+		C2F164AD1FA491620018D0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F164AC1FA491620018D0A9 /* Assets.xcassets */; };
+		C2F164B01FA491620018D0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F164AE1FA491620018D0A9 /* LaunchScreen.storyboard */; };
+		C2F164BB1FA491620018D0A9 /* ColorProcedureForPhotoshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F164BA1FA491620018D0A9 /* ColorProcedureForPhotoshopTests.swift */; };
+		C2F164C61FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F164C51FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F164B71FA491620018D0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F1649A1FA491620018D0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F164A11FA491620018D0A9;
+			remoteInfo = ColorProcedureForPhotoshop;
+		};
+		C2F164C21FA491620018D0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F1649A1FA491620018D0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F164A11FA491620018D0A9;
+			remoteInfo = ColorProcedureForPhotoshop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F164A21FA491620018D0A9 /* ColorProcedureForPhotoshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorProcedureForPhotoshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F164A51FA491620018D0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F164A71FA491620018D0A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F164AA1FA491620018D0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F164AC1FA491620018D0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F164AF1FA491620018D0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F164B11FA491620018D0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F164B61FA491620018D0A9 /* ColorProcedureForPhotoshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorProcedureForPhotoshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F164BA1FA491620018D0A9 /* ColorProcedureForPhotoshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProcedureForPhotoshopTests.swift; sourceTree = "<group>"; };
+		C2F164BC1FA491620018D0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F164C11FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorProcedureForPhotoshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F164C51FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProcedureForPhotoshopUITests.swift; sourceTree = "<group>"; };
+		C2F164C71FA491620018D0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F1649F1FA491620018D0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F164B31FA491620018D0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F164BE1FA491620018D0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F164991FA491620018D0A9 = {
+			isa = PBXGroup;
+			children = (
+				C2F164A41FA491620018D0A9 /* ColorProcedureForPhotoshop */,
+				C2F164B91FA491620018D0A9 /* ColorProcedureForPhotoshopTests */,
+				C2F164C41FA491620018D0A9 /* ColorProcedureForPhotoshopUITests */,
+				C2F164A31FA491620018D0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F164A31FA491620018D0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F164A21FA491620018D0A9 /* ColorProcedureForPhotoshop.app */,
+				C2F164B61FA491620018D0A9 /* ColorProcedureForPhotoshopTests.xctest */,
+				C2F164C11FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F164A41FA491620018D0A9 /* ColorProcedureForPhotoshop */ = {
+			isa = PBXGroup;
+			children = (
+				C2F164A51FA491620018D0A9 /* AppDelegate.swift */,
+				C2F164A71FA491620018D0A9 /* ViewController.swift */,
+				C2F164A91FA491620018D0A9 /* Main.storyboard */,
+				C2F164AC1FA491620018D0A9 /* Assets.xcassets */,
+				C2F164AE1FA491620018D0A9 /* LaunchScreen.storyboard */,
+				C2F164B11FA491620018D0A9 /* Info.plist */,
+			);
+			path = ColorProcedureForPhotoshop;
+			sourceTree = "<group>";
+		};
+		C2F164B91FA491620018D0A9 /* ColorProcedureForPhotoshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F164BA1FA491620018D0A9 /* ColorProcedureForPhotoshopTests.swift */,
+				C2F164BC1FA491620018D0A9 /* Info.plist */,
+			);
+			path = ColorProcedureForPhotoshopTests;
+			sourceTree = "<group>";
+		};
+		C2F164C41FA491620018D0A9 /* ColorProcedureForPhotoshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F164C51FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.swift */,
+				C2F164C71FA491620018D0A9 /* Info.plist */,
+			);
+			path = ColorProcedureForPhotoshopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F164A11FA491620018D0A9 /* ColorProcedureForPhotoshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F164CA1FA491630018D0A9 /* Build configuration list for PBXNativeTarget "ColorProcedureForPhotoshop" */;
+			buildPhases = (
+				C2F1649E1FA491620018D0A9 /* Sources */,
+				C2F1649F1FA491620018D0A9 /* Frameworks */,
+				C2F164A01FA491620018D0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorProcedureForPhotoshop;
+			productName = ColorProcedureForPhotoshop;
+			productReference = C2F164A21FA491620018D0A9 /* ColorProcedureForPhotoshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F164B51FA491620018D0A9 /* ColorProcedureForPhotoshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F164CD1FA491630018D0A9 /* Build configuration list for PBXNativeTarget "ColorProcedureForPhotoshopTests" */;
+			buildPhases = (
+				C2F164B21FA491620018D0A9 /* Sources */,
+				C2F164B31FA491620018D0A9 /* Frameworks */,
+				C2F164B41FA491620018D0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F164B81FA491620018D0A9 /* PBXTargetDependency */,
+			);
+			name = ColorProcedureForPhotoshopTests;
+			productName = ColorProcedureForPhotoshopTests;
+			productReference = C2F164B61FA491620018D0A9 /* ColorProcedureForPhotoshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2F164C01FA491620018D0A9 /* ColorProcedureForPhotoshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F164D01FA491630018D0A9 /* Build configuration list for PBXNativeTarget "ColorProcedureForPhotoshopUITests" */;
+			buildPhases = (
+				C2F164BD1FA491620018D0A9 /* Sources */,
+				C2F164BE1FA491620018D0A9 /* Frameworks */,
+				C2F164BF1FA491620018D0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F164C31FA491620018D0A9 /* PBXTargetDependency */,
+			);
+			name = ColorProcedureForPhotoshopUITests;
+			productName = ColorProcedureForPhotoshopUITests;
+			productReference = C2F164C11FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F1649A1FA491620018D0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Orange;
+				TargetAttributes = {
+					C2F164A11FA491620018D0A9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					C2F164B51FA491620018D0A9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F164A11FA491620018D0A9;
+					};
+					C2F164C01FA491620018D0A9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2F164A11FA491620018D0A9;
+					};
+				};
+			};
+			buildConfigurationList = C2F1649D1FA491620018D0A9 /* Build configuration list for PBXProject "ColorProcedureForPhotoshop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F164991FA491620018D0A9;
+			productRefGroup = C2F164A31FA491620018D0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F164A11FA491620018D0A9 /* ColorProcedureForPhotoshop */,
+				C2F164B51FA491620018D0A9 /* ColorProcedureForPhotoshopTests */,
+				C2F164C01FA491620018D0A9 /* ColorProcedureForPhotoshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F164A01FA491620018D0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F164B01FA491620018D0A9 /* LaunchScreen.storyboard in Resources */,
+				C2F164AD1FA491620018D0A9 /* Assets.xcassets in Resources */,
+				C2F164AB1FA491620018D0A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F164B41FA491620018D0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F164BF1FA491620018D0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F1649E1FA491620018D0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F164A81FA491620018D0A9 /* ViewController.swift in Sources */,
+				C2F164A61FA491620018D0A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F164B21FA491620018D0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F164BB1FA491620018D0A9 /* ColorProcedureForPhotoshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F164BD1FA491620018D0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F164C61FA491620018D0A9 /* ColorProcedureForPhotoshopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F164B81FA491620018D0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F164A11FA491620018D0A9 /* ColorProcedureForPhotoshop */;
+			targetProxy = C2F164B71FA491620018D0A9 /* PBXContainerItemProxy */;
+		};
+		C2F164C31FA491620018D0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F164A11FA491620018D0A9 /* ColorProcedureForPhotoshop */;
+			targetProxy = C2F164C21FA491620018D0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F164A91FA491620018D0A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F164AA1FA491620018D0A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F164AE1FA491620018D0A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F164AF1FA491620018D0A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F164C81FA491630018D0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2F164C91FA491630018D0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F164CB1FA491630018D0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorProcedureForPhotoshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.test.ColorProcedureForPhotoshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F164CC1FA491630018D0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorProcedureForPhotoshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.test.ColorProcedureForPhotoshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2F164CE1FA491630018D0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorProcedureForPhotoshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.test.ColorProcedureForPhotoshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorProcedureForPhotoshop.app/ColorProcedureForPhotoshop";
+			};
+			name = Debug;
+		};
+		C2F164CF1FA491630018D0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorProcedureForPhotoshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.test.ColorProcedureForPhotoshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorProcedureForPhotoshop.app/ColorProcedureForPhotoshop";
+			};
+			name = Release;
+		};
+		C2F164D11FA491630018D0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorProcedureForPhotoshopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.test.ColorProcedureForPhotoshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorProcedureForPhotoshop;
+			};
+			name = Debug;
+		};
+		C2F164D21FA491630018D0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColorProcedureForPhotoshopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.test.ColorProcedureForPhotoshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorProcedureForPhotoshop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F1649D1FA491620018D0A9 /* Build configuration list for PBXProject "ColorProcedureForPhotoshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F164C81FA491630018D0A9 /* Debug */,
+				C2F164C91FA491630018D0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F164CA1FA491630018D0A9 /* Build configuration list for PBXNativeTarget "ColorProcedureForPhotoshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F164CB1FA491630018D0A9 /* Debug */,
+				C2F164CC1FA491630018D0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F164CD1FA491630018D0A9 /* Build configuration list for PBXNativeTarget "ColorProcedureForPhotoshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F164CE1FA491630018D0A9 /* Debug */,
+				C2F164CF1FA491630018D0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F164D01FA491630018D0A9 /* Build configuration list for PBXNativeTarget "ColorProcedureForPhotoshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F164D11FA491630018D0A9 /* Debug */,
+				C2F164D21FA491630018D0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F1649A1FA491620018D0A9 /* Project object */;
+}
